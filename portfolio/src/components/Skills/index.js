@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import { Typography } from "@material-ui/core";
-import "./IntroSection.css";
+import "./Skills.css";
 
-class IntroSection extends Component {
+class Skills extends Component {
   render() {
     return (
       <div>
-        <section id="__introSection">
+        <section id="__Skills">
           <Typography variant="h1" component="h2" gutterBottom>
-            Intro Section
+            Skills Section
           </Typography>
         </section>
       </div>
@@ -16,4 +16,4 @@ class IntroSection extends Component {
   }
 }
 
-export default IntroSection;
+export default Skills;
