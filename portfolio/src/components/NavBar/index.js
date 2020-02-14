@@ -1,28 +1,26 @@
 import React, { Component } from "react";
-import {
-  AppBar,
-  Toolbar,
-  IconButton,
-  Typography,
-  Button
-} from "@material-ui/core";
+import { Button } from "@material-ui/core";
 import "./NavBar.css";
 
 class NavBar extends Component {
   render() {
     return (
-      <div>
-        <AppBar position="static">
-          <Toolbar>
-            <IconButton
-              edge="start"
-              color="inherit"
-              aria-label="menu"
-            ></IconButton>
-            <Typography variant="h6">News</Typography>
-            <Button color="inherit">Login</Button>
-          </Toolbar>
-        </AppBar>
+      <div id="__nav">
+        <div>
+          <Button color="inherit" href="#__introSection">
+            Home
+          </Button>
+        </div>
+        <div>
+          <Button color="inherit" href="#__skills">
+            Skills
+          </Button>
+        </div>
+        <div>
+          <Button color="inherit" href="#__projects">
+            Projects
+          </Button>
+        </div>
       </div>
     );
   }

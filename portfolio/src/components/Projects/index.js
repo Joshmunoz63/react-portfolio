@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import { Typography } from "@material-ui/core";
-import "./Skills.css";
+import "./Projects.css";
 
-class Skills extends Component {
+class Projects extends Component {
   render() {
     return (
       <div>
-        <section id="__skills">
+        <section id="__projects">
           <Typography variant="h1" component="h2" gutterBottom>
-            Skills Section
+            Projects
           </Typography>
         </section>
       </div>
@@ -16,4 +16,4 @@ class Skills extends Component {
   }
 }
 
-export default Skills;
+export default Projects;

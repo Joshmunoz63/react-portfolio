@@ -1,0 +1,8 @@
+#__nav {
+  position: fixed;
+  left: 0;
+  width: var(--nav-width);
+  height: 100vh;
+  padding: 2em;
+  background-color: #333;
+}
