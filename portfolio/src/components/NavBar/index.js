@@ -12,6 +12,11 @@ class NavBar extends Component {
           </Button>
         </div>
         <div>
+          <Button color="inherit" href="#__about">
+            About
+          </Button>
+        </div>
+        <div>
           <Button color="inherit" href="#__skills">
             Skills
           </Button>
