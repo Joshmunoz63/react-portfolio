@@ -18,7 +18,7 @@ class IntroSection extends Component {
               Hi, my name is Josh Munoz.
             </Typography>
             <Typography variant="h2" id="__introTexth2">
-              I am a Full-Stack Web Developer
+              I am a Full-Stack Web Developer.
             </Typography>
           </div>
           <div id="__dudeContainer">
