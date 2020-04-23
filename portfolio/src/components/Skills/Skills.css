@@ -23,7 +23,7 @@
 
 .__skillsContainer .__skillsCard .face {
   width: 300px;
-  height: 300px;
+  height: 350px;
   transition: 0.5s;
 }
 
@@ -34,7 +34,7 @@
   justify-content: center;
   align-items: center;
   z-index: 1;
-  transform: translateY(100px);
+  transform: translateY(150px);
 }
 
 .__skillsContainer .__skillsCard:hover .face.face1 {

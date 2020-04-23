@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Button } from "@material-ui/core";
 import "./NavBar.css";
 
 class NavBar extends Component {
@@ -7,24 +6,40 @@ class NavBar extends Component {
     return (
       <div id="__nav">
         <div>
-          <Button color="inherit" href="#__introSection">
+          <a color="inherit" href="#__introSection" id="__navbtn">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
             Home
-          </Button>
+          </a>
         </div>
         <div>
-          <Button color="inherit" href="#__about">
+          <a color="inherit" href="#__about" id="__navbtn">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
             About
-          </Button>
+          </a>
         </div>
         <div>
-          <Button color="inherit" href="#__skills">
+          <a color="inherit" href="#__skills" id="__navbtn">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
             Skills
-          </Button>
+          </a>
         </div>
         <div>
-          <Button color="inherit" href="#__projects">
+          <a color="inherit" href="#__projects" id="__navbtn">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
             Projects
-          </Button>
+          </a>
         </div>
       </div>
     );
