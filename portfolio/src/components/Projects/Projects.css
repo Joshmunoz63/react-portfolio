@@ -2,9 +2,10 @@
   background-color: black;
   height: 100vh;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   flex-direction: row;
+  margin: auto;
 }
 
 #__qwikiImg {
@@ -12,8 +13,20 @@
   width: 200px;
 }
 
+#__bamazonImg {
+  height: 200px;
+  width: 200px;
+}
+
+#__portfolioImg {
+  height: 200px;
+  width: 200px;
+}
+
 .__projectsContainer .__projectsCard {
   position: relative;
+  margin-right: 0%;
+  margin-left: 110px;
 }
 
 .__projectsContainer .__projectsCard .face {
@@ -86,4 +99,17 @@
   margin-right: 4px;
   padding-left: 4px;
   margin-left: 4px;
+}
+
+#__link {
+  color: rgb(113, 0, 185);
+  -o-transition: .2s;
+  -ms-transition: .2s;
+  -moz-transition: .2s;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+#__link:hover {
+  color: #333;
 }
