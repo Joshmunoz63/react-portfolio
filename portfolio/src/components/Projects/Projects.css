@@ -1,5 +1,5 @@
 #__projects {
-  background-color: red;
+  background-color: black;
   height: 100vh;
   display: flex;
   justify-content: space-evenly;
@@ -34,7 +34,7 @@
 
 .__projectsContainer .__projectsCard:hover .face.face1 {
   transform: translateY(0);
-  background: rgb(113, 0, 185);
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 }
 
 .__projectsContainer .__projectsCard .face.face1 .__projectsContent {
@@ -72,4 +72,18 @@
 .__projectsContainer .__projectsCard .face.face2 .__projectsContent .__projectsTypography {
   margin: 0%;
   padding: 0%;
+}
+
+#__projectlinks {
+  display: flex;
+  justify-content: center;
+  padding-top: 4px;
+  margin-top: 4px;
+}
+
+#__projectlink {
+  padding-right: 4px;
+  margin-right: 4px;
+  padding-left: 4px;
+  margin-left: 4px;
 }

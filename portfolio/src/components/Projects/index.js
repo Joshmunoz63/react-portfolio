@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { Typography } from "@material-ui/core";
 import "./Projects.css";
 import qwiki from "../../images/qwiki.png";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import WebIcon from "@material-ui/icons/Web";
 
 class Projects extends Component {
   render() {
@@ -26,8 +28,27 @@ class Projects extends Component {
                   your own scalable Wiki. With the Builder Tool, you can easily
                   generate dynamic informative Wikis and publish them for others
                   to read or contribute.
-                  <h4>Tools I Write With</h4>
-                  Bootstrap, React, Materialize, Material-ui, HandleBars
+                  <h4>Technologies Used</h4>
+                  Axios, Bcrypt, Express, Heroku, Javascript, Material UI,
+                  Mongo, Mongoose, React, Validator
+                  <div id="__projectlinks">
+                    <div id="__projectlink">
+                      <a
+                        href="https://github.com/ragobash/qwiki"
+                        target="_blank"
+                      >
+                        <GitHubIcon />
+                      </a>
+                    </div>
+                    <div id="__projectlink">
+                      <a
+                        href="https://protected-forest-42016.herokuapp.com/"
+                        target="_blank"
+                      >
+                        <WebIcon />
+                      </a>
+                    </div>
+                  </div>
                 </Typography>
               </div>
             </div>
