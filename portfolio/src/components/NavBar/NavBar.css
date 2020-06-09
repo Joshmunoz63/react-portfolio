@@ -121,3 +121,14 @@
     bottom: 100%;
   }
 }
+
+/*------------------------------\
+   Modal Styles and Animations
+\------------------------------*/
+
+#__contactModal {
+  height: 400px;
+  width: 800px;
+  background-color: #333;
+  align-items: center;
+}

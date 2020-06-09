@@ -1,7 +1,26 @@
 import React, { Component } from "react";
+import { Modal, Button } from "@material-ui/core";
 import "./NavBar.css";
 
 class NavBar extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      open: false
+    };
+  }
+
+  handleOpen = () => {
+    this.setState({ open: true });
+  };
+
+  handleClose = () => {
+    this.setState({
+      open: false
+    });
+  };
+
   render() {
     return (
       <div id="__nav">
@@ -40,6 +59,27 @@ class NavBar extends Component {
             <span></span>
             Projects
           </a>
+        </div>
+        <div>
+          <a color="inherit" id="__navbtn" onClick={this.handleOpen}>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Contact
+          </a>
+          <Modal
+            aria-labelledby="simple-modal-title"
+            aria-describedby="simple-modal-description"
+            open={this.state.open}
+            onClose={this.handleClose}
+            autoComplete="off"
+            id="__contactModal"
+          >
+            <div>
+              <h1>hello</h1>
+            </div>
+          </Modal>
         </div>
       </div>
     );
