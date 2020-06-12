@@ -40,7 +40,7 @@ class Projects extends Component {
                         target="_blank"
                         id="__link"
                       >
-                        <GitHubIcon />
+                        <GitHubIcon style={{ fontSize: 25 }} />
                       </a>
                     </div>
                     <div id="__projectlink">
@@ -49,7 +49,7 @@ class Projects extends Component {
                         target="_blank"
                         id="__link"
                       >
-                        <WebIcon />
+                        <WebIcon style={{ fontSize: 25 }} />
                       </a>
                     </div>
                   </div>
@@ -83,7 +83,7 @@ class Projects extends Component {
                         target="_blank"
                         id="__link"
                       >
-                        <GitHubIcon />
+                        <GitHubIcon style={{ fontSize: 25 }} />
                       </a>
                     </div>
                     <div id="__projectlink">
@@ -92,7 +92,7 @@ class Projects extends Component {
                         target="_blank"
                         id="__link"
                       >
-                        <WebIcon />
+                        <WebIcon style={{ fontSize: 25 }} />
                       </a>
                     </div>
                   </div>
@@ -124,7 +124,7 @@ class Projects extends Component {
                         target="_blank"
                         id="__link"
                       >
-                        <GitHubIcon />
+                        <GitHubIcon style={{ fontSize: 25 }} />
                       </a>
                     </div>
                   </div>

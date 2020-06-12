@@ -127,8 +127,50 @@
 \------------------------------*/
 
 #__contactModal {
-  height: 400px;
-  width: 800px;
-  background-color: #333;
+  text-align: center;
+  display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background-color: #333;
+  top: 50%;
+  left: 50%;
+  width: 800px;
+  height: 400px;
+  color: whitesmoke;
+}
+
+#linkedinIcon {
+  color: #03e9f4;
+  -o-transition: .2s;
+  -ms-transition: .2s;
+  -moz-transition: .2s;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+#linkedinIcon:hover {
+  color: rgb(113, 0, 185);
+}
+
+#__modalInfo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 120px;
+}
+
+#emailIcon {
+  color: #03e9f4;
+  -o-transition: .2s;
+  -ms-transition: .2s;
+  -moz-transition: .2s;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+#emailIcon:hover {
+  color: rgb(113, 0, 185);
 }
