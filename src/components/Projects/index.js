@@ -116,7 +116,7 @@ class Projects extends Component {
                 >
                   This is what you are looking at.
                   <h4>Technologies Used</h4>
-                  React, Material UI, css
+                  React, Material UI, css, Heroku
                   <div id="__projectlinks">
                     <div id="__projectlink">
                       <a
