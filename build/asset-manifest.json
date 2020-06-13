@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.3896aa4c.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.e67b44ce.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.e67b44ce.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.ae70f43c.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.ae70f43c.js.map",
+    "static/js/2.7fde9799.chunk.js": "/react-portfolio/static/js/2.7fde9799.chunk.js",
+    "static/js/2.7fde9799.chunk.js.map": "/react-portfolio/static/js/2.7fde9799.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.943517375bd4b4e3748c0604a2373a57.js": "/react-portfolio/precache-manifest.943517375bd4b4e3748c0604a2373a57.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/main.3896aa4c.chunk.css.map": "/react-portfolio/static/css/main.3896aa4c.chunk.css.map",
+    "static/js/2.7fde9799.chunk.js.LICENSE": "/react-portfolio/static/js/2.7fde9799.chunk.js.LICENSE",
+    "static/media/backend.png": "/react-portfolio/static/media/backend.f94dd9d3.png",
+    "static/media/bamazon.png": "/react-portfolio/static/media/bamazon.28524543.png",
+    "static/media/dude.png": "/react-portfolio/static/media/dude.ec7eacb1.png",
+    "static/media/frontend.png": "/react-portfolio/static/media/frontend.726345bc.png",
+    "static/media/portfolio.png": "/react-portfolio/static/media/portfolio.eddc20b8.png",
+    "static/media/qwiki.png": "/react-portfolio/static/media/qwiki.c9720b26.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ae70f43c.js",
+    "static/js/2.7fde9799.chunk.js",
+    "static/css/main.3896aa4c.chunk.css",
+    "static/js/main.e67b44ce.chunk.js"
+  ]
+}
